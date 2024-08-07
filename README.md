@@ -142,7 +142,7 @@ The application uses basic CSS for styling, ensuring the UI is responsive and us
    - The owner's Pokémon will be listed.
    - Use the buttons to make the Pokémon move, flee, or cease.
    
-#Features
+###Features
     **Home Page:**
         Dropdown to select a Pokémon owner.
         List of Pokémon owned by the selected owner.
