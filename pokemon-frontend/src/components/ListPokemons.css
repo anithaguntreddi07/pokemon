@@ -1,0 +1,85 @@
+/* Container for the entire page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Links styled as buttons */
+  .link, .add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .link {
+    background-color: #007BFF; /* Blue */
+  }
+  
+  .add-button {
+    background-color: #28a745; /* Green */
+  }
+  
+  .link:hover, .add-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button styling */
+  .action-button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .edit {
+    background-color: #007BFF; /* Blue */
+  }
+  
+  .delete {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .edit:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .delete:hover {
+    background-color: #c82333; /* Darker red */
+  }
+   

@@ -1,0 +1,194 @@
+/* Base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.homepage-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  position: relative;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0b0b0b;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow the items to wrap */
+}
+
+.header nav ul li {
+  display: inline;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+.selection-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.pokemon-container {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #4CAF50;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.pokemon {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.pikachu-image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pikachu-image {
+  width: 100%;
+  max-width: 500px; /* Increased max-width */
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .header nav ul li a {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .pokemon-container {
+    height: 200px;
+  }
+
+  .pikachu-image {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+
+  .pokemon-container {
+    height: 150px;
+  }
+
+  .pikachu-image {
+    max-width: 500px;
+  }
+
+  .selection-container select {
+    width: 100%;
+    padding: 8px;
+  }
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
