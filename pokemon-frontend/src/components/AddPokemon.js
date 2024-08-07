@@ -55,7 +55,7 @@ const AddPokemon = () => {
     try {
       await axios.post('http://localhost:5000/api/add-pokemon', pokemonData);
       alert('Pokemon added successfully!');
-      navigate('/list-pokemons');
+      navigate('/list');
     } catch (error) {
       console.error(error);
     }
