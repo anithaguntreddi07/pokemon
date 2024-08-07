@@ -142,24 +142,30 @@ The application uses basic CSS for styling, ensuring the UI is responsive and us
    - The owner's Pokémon will be listed.
    - Use the buttons to make the Pokémon move, flee, or cease.
    
-###Features
-    **Home Page:**
-        Dropdown to select a Pokémon owner.
-        List of Pokémon owned by the selected owner.
-        Buttons to move, hide, and freeze Pokémon.
-    **List Page:**
-        List all Pokémon with their details.
-        Edit and delete functionality.
-    **Add Pokémon:**
-        Form to add a new Pokémon.
-    **Add Pokémon to Existing Owner:**
-        Dropdown to select an existing owner.
-        Form to add a new Pokémon to the selected owner.
+### Features
 
-**Future Improvements**
-    Persist data using a database.
-    Enhance the UI for better user experience.
-    Implement user authentication.
+1. **Home Page**: 
+   - Dropdown to select a Pokémon owner.
+   - List of Pokémon owned by the selected owner.
+   - Buttons to move, hide, and freeze Pokémon.
+
+2. **List Page**:
+   - List all Pokémon with their details.
+   - Edit and delete functionality.
+
+3. **Add Pokémon**:
+   - Form to add a new Pokémon.
+
+4. **Add Pokémon to Existing Owner**:
+   - Dropdown to select an existing owner.
+   - Form to add a new Pokémon to the selected owner.
+
+### Future Improvements
+
+- Persist data using a database.
+- Enhance the UI for better user experience.
+- Implement user authentication.
+
 
 This project demonstrates a simple yet comprehensive Pokémon management system using React and Express. The backend provides robust APIs, while the frontend offers an intuitive interface for managing and interacting with Pokémon.
 Features
