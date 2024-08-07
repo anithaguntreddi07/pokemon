@@ -110,6 +110,7 @@ const AddPokemon = () => {
           </select>
         </div>
         <button type="submit">Add Pokemon</button>
+        <Link to="/add" className="add">Add Pokemon</Link>
       </form>
       <Link to="/list" className="back-link">Back to List</Link>
     </div>
