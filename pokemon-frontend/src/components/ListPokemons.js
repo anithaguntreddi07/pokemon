@@ -48,7 +48,7 @@ const ListPokemons = () => {
     <div className="container">
       <h1>List of Pokemons</h1>
       <Link to="/add-pokemon-page" className="link">Add Pokemon to Existing Owner</Link>
-      <Link to="/add-pokemon" className="add-button">Add Pokemon</Link>
+      <Link to="/add" className="add-button">Add Pokemon</Link>
       
       <h2>Owners List</h2>
       <ul>
