@@ -1,5 +1,5 @@
 
-# Pokémon Management Application
+# Pokémon
 
 This application allows users to manage Pokémon, view Pokémon owners, and interact with Pokémon on a graphical interface. The application is built with React for the frontend and Express for the backend.
 
